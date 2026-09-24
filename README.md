@@ -4,23 +4,23 @@ Sitio web oficial y plataforma de información corporativa para la **Agencia de 
 
 ---
 
-## 📌 Tabla de Contenidos
+## Tabla de Contenidos
 
-- [Descripción General](#-descripción-general)
-- [Stack Tecnológico](#-stack-tecnológico)
-- [Estructura del Proyecto](#-estructura-del-proyecto)
-- [Características y Módulos](#-características-y-módulos)
-- [Requisitos del Sistema](#-requisitos-del-sistema)
-- [Instalación y Despliegue Local](#-instalación-y-despliegue-local)
-- [Configuración Técnica](#-configuración-técnica)
+- [Descripción General](#descripción-general)
+- [Stack Tecnológico](#stack-tecnológico)
+- [Estructura del Proyecto](#estructura-del-proyecto)
+- [Características y Módulos](#características-y-módulos)
+- [Requisitos del Sistema](#requisitos-del-sistema)
+- [Instalación y Despliegue Local](#instalación-y-despliegue-local)
+- [Configuración Técnica](#configuración-técnica)
   - [Reescritura de URLs (.htaccess)](#reescritura-de-urls-htaccess)
   - [Configuración de Envío de Correo (PHPMailer)](#configuración-de-envío-de-correo-phpmailer)
-- [Seguridad y Buenas Prácticas](#-seguridad-y-buenas-prácticas)
-- [Licencia y Créditos](#-licencia-y-créditos)
+- [Seguridad y Buenas Prácticas](#seguridad-y-buenas-prácticas)
+- [Licencia y Créditos](#licencia-y-créditos)
 
 ---
 
-## 📖 Descripción General
+## Descripción General
 
 Este proyecto consiste en una aplicación web dinámica desarrollada en **PHP** modular, sin frameworks pesados, optimizada para ofrecer un alto rendimiento, facilidad de mantenimiento y una experiencia de usuario fluida y adaptable (responsive design).
 
@@ -32,7 +32,7 @@ Permite a los clientes y usuarios:
 
 ---
 
-## 🛠 Stack Tecnológico
+## Stack Tecnológico
 
 | Capa | Tecnología | Descripción |
 | :--- | :--- | :--- |
@@ -45,7 +45,7 @@ Permite a los clientes y usuarios:
 
 ---
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```text
 Rialgava/
@@ -82,7 +82,7 @@ Rialgava/
 
 ---
 
-## 🚀 Características y Módulos
+## Características y Módulos
 
 ### 1. Navegación Modular y Detección de Página Activa
 El archivo `header.php` implementa una función auxiliar `is_active($page_name)` para resaltar automáticamente el enlace del menú correspondiente a la página en la que se encuentra el usuario.
@@ -100,7 +100,7 @@ Configurado a través de `.htaccess` para que los usuarios puedan acceder a las 
 
 ---
 
-## 💻 Requisitos del Sistema
+## Requisitos del Sistema
 
 - Servidor web **Apache 2.4+** con módulo `mod_rewrite` activo.
 - **PHP 7.4** o superior (compatible con PHP 8.0, 8.1, 8.2 y 8.3).
@@ -109,7 +109,7 @@ Configurado a través de `.htaccess` para que los usuarios puedan acceder a las 
 
 ---
 
-## ⚙️ Instalación y Despliegue Local
+## Instalación y Despliegue Local
 
 1. **Clonar o copiar el repositorio** en la carpeta de documentos de tu servidor web local (por ejemplo en XAMPP):
    ```bash
@@ -137,7 +137,7 @@ Configurado a través de `.htaccess` para que los usuarios puedan acceder a las 
 
 ---
 
-## 🔧 Configuración Técnica
+## Configuración Técnica
 
 ### Reescritura de URLs (.htaccess)
 El archivo `.htaccess` contiene:
@@ -169,7 +169,7 @@ $mail->Port       = 465; // O 587
 
 ---
 
-## 🛡 Seguridad y Buenas Prácticas
+## Seguridad y Buenas Prácticas
 
 - **Sanitización de Entradas:** Todas las variables de entrada de usuario (`$_POST`) son sanitizadas para evitar ataques de tipo XSS.
 - **Protección de Datos:** Las credenciales y claves sensibles deben almacenarse en variables de entorno o en archivos de configuración excluidos del control de versiones (`.gitignore`).
@@ -177,7 +177,7 @@ $mail->Port       = 465; // O 587
 
 ---
 
-## 📄 Licencia y Créditos
+## Licencia y Créditos
 
 - **Empresa:** Agencia de Aduanas Rialgava Internacional Nivel 2 S.A.S.
 - **Desarrollador / Mantenedor:** Alejandro Suarez ([@Alej2299](https://github.com/Alej2299))
